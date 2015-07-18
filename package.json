@@ -1,0 +1,40 @@
+{
+  "name": "23-multiplayer",
+  "version": "1.0.0",
+  "description": "A multiplayer app where 2 players rush towards the target.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.12.4",
+    "mongodb": "^2.0.39",
+    "socket.io": "^1.3.5"
+  },
+
+  "scripts": {
+    "start": "supervisor server.js"
+  },
+
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anurageldorado/23-multiplayer"
+  },
+  "keywords": [
+    "23",
+    "multiplayer",
+    "nodejs",
+    "mongodb",
+    "express",
+    "heroku",
+    "app",
+    "game"
+  ],
+  "author": "Anurag El Dorado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anurageldorado/23-multiplayer/issues"
+  },
+  "homepage": "https://github.com/anurageldorado/23-multiplayer"
+}
